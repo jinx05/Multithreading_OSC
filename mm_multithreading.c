@@ -4,7 +4,6 @@
 // the program splits the job in a way such that each thread works on a strip of matrices
 // since there are 10000 rows and 25 threads, each thread will work on a strip that is 400 rows wide
 // the product of matrices A and B are stored in matrix C
-// developer and owner of this program: Shrey S V
 // created by alice_v3.0.4 on 10/09/18
 
 #include<stdio.h>
